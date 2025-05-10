@@ -51,7 +51,8 @@ class MainDrawer extends StatelessWidget {
             leading: const Icon(Icons.solar_power),
             title: const Text('Calculadora Solar'),
             onTap: () {
-              Navigator.pop(context);
+              context.go('/calculator');
+              Navigator.of(context).pop();
               // Navegar a la calculadora solar
             },
           ),
