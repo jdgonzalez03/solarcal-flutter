@@ -1,0 +1,60 @@
+<svg viewBox="0 0 360 180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo degradado con temática solar -->
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E86C1" /> <!-- Azul solar primario -->
+      <stop offset="100%" stop-color="#1B4F72" /> <!-- Azul oscuro -->
+    </linearGradient>
+    
+    <linearGradient id="sunGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F9A825" /> <!-- Amarillo solar claro -->
+      <stop offset="100%" stop-color="#F39C12" /> <!-- Naranja solar -->
+    </linearGradient>
+    
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  
+  <!-- Fondo principal -->
+  <rect width="360" height="180" fill="url(#headerGradient)" />
+  
+  <!-- Líneas curvas decorativas representando paneles solares -->
+  <path d="M0,180 C60,150 120,130 180,140 C240,150 300,120 360,140 L360,180 L0,180 Z" 
+        fill="#1B4F72" fill-opacity="0.4" />
+  <path d="M0,180 C70,160 140,150 210,160 C280,170 320,150 360,160 L360,180 L0,180 Z" 
+        fill="#1B4F72" fill-opacity="0.6" />
+        
+  <!-- Sol -->
+  <circle cx="60" cy="60" r="28" fill="url(#sunGradient)" filter="url(#glow)" />
+  
+  <!-- Rayos del sol -->
+  <line x1="60" y1="20" x2="60" y2="10" stroke="#F9A825" stroke-width="3" stroke-linecap="round" />
+  <line x1="60" y1="100" x2="60" y2="110" stroke="#F9A825" stroke-width="3" stroke-linecap="round" />
+  <line x1="20" y1="60" x2="10" y2="60" stroke="#F9A825" stroke-width="3" stroke-linecap="round" />
+  <line x1="100" y1="60" x2="110" y2="60" stroke="#F9A825" stroke-width="3" stroke-linecap="round" />
+  <line x1="30" y1="30" x2="22" y2="22" stroke="#F9A825" stroke-width="3" stroke-linecap="round" />
+  <line x1="90" y1="90" x2="98" y2="98" stroke="#F9A825" stroke-width="3" stroke-linecap="round" />
+  <line x1="30" y1="90" x2="22" y2="98" stroke="#F9A825" stroke-width="3" stroke-linecap="round" />
+  <line x1="90" y1="30" x2="98" y2="22" stroke="#F9A825" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Panel solar estilizado -->
+  <g transform="translate(250, 50) scale(0.8)">
+    <rect x="0" y="0" width="80" height="60" fill="#27AE60" fill-opacity="0.2" stroke="#2C3E50" stroke-width="2" />
+    <line x1="0" y1="20" x2="80" y2="20" stroke="#2C3E50" stroke-width="1" />
+    <line x1="0" y1="40" x2="80" y2="40" stroke="#2C3E50" stroke-width="1" />
+    <line x1="20" y1="0" x2="20" y2="60" stroke="#2C3E50" stroke-width="1" />
+    <line x1="40" y1="0" x2="40" y2="60" stroke="#2C3E50" stroke-width="1" />
+    <line x1="60" y1="0" x2="60" y2="60" stroke="#2C3E50" stroke-width="1" />
+    <rect x="0" y="0" width="80" height="60" fill="none" stroke="#27AE60" stroke-width="3" />
+  </g>
+  
+  <!-- Texto logo -->
+  <text x="180" y="135" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="white">
+    SolarCal
+  </text>
+  <text x="180" y="155" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">
+    Cálculos solares eficientes
+  </text>
+</svg>
