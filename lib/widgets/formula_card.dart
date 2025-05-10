@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:calculator/widgets/MathFormula.dart';
+import 'package:calculator/widgets/math_formula.dart';
 
 class FormulaCard extends StatelessWidget {
   final String title;

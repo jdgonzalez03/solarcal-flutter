@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:calculator/widgets/CustomContainer.dart';
+import 'package:calculator/widgets/custom_container.dart';
 
 class WelcomeScreen extends StatefulWidget {
   const WelcomeScreen({Key? key}) : super(key: key);

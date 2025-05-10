@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:calculator/models/formula.dart';
+import 'package:calculator/models/formula_model.dart';
 import 'package:calculator/data/formulas.dart';
-import 'package:calculator/widgets/FormulaCard.dart';
-import 'package:calculator/widgets/MainDrawer.dart';
+import 'package:calculator/widgets/formula_card.dart';
+import 'package:calculator/widgets/main_drawer.dart';
 
 class FormulasScreen extends StatefulWidget {
   const FormulasScreen({Key? key}) : super(key: key);
