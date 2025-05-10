@@ -1,7 +1,7 @@
 import 'package:go_router/go_router.dart';
-import 'package:calculator/screens/HomeScreen.dart';
-import 'package:calculator/screens/FormulasScreen.dart';
-import 'package:calculator/screens/WelcomeScreen.dart';
+import 'package:calculator/screens/home_screen.dart';
+import 'package:calculator/screens/formula_screen.dart';
+import 'package:calculator/screens/welcome_screen.dart';
 
 final GoRouter appRouter = GoRouter(
   initialLocation: '/home',

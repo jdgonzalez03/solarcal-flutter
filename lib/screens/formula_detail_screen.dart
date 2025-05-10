@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:calculator/models/formula.dart';
-import 'package:calculator/widgets/MathFormula.dart';
+import 'package:calculator/models/formula_model.dart';
+import 'package:calculator/widgets/math_formula.dart';
 
 class FormulaDetailScreen extends StatefulWidget {
   final Formula formula;

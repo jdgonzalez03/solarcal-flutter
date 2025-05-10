@@ -1,4 +1,4 @@
-import 'package:calculator/models/formula.dart';
+import 'package:calculator/models/formula_model.dart';
 
 class FormulasData {
   // Lista de fórmulas eléctricas y solares
