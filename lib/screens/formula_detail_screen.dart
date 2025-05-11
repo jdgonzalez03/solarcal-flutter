@@ -6,9 +6,9 @@ class FormulaDetailScreen extends StatefulWidget {
   final Formula formula;
 
   const FormulaDetailScreen({
-    Key? key,
+    super.key,
     required this.formula,
-  }) : super(key: key);
+  });
 
   @override
   State<FormulaDetailScreen> createState() => _FormulaDetailScreenState();
@@ -160,7 +160,7 @@ class _FormulaDetailScreenState extends State<FormulaDetailScreen> {
                     keyboardType: TextInputType.number,
                   ),
                 );
-              }).toList(),
+              }),
               
               const SizedBox(height: 16),
               

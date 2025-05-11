@@ -5,7 +5,7 @@ import 'package:calculator/widgets/formula_card.dart';
 import 'package:calculator/widgets/main_drawer.dart';
 
 class FormulasScreen extends StatefulWidget {
-  const FormulasScreen({Key? key}) : super(key: key);
+  const FormulasScreen({super.key});
 
   @override
   State<FormulasScreen> createState() => _FormulasScreenState();
