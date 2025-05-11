@@ -8,12 +8,12 @@ class MathFormula extends StatelessWidget {
   final TextAlign textAlign;
 
   const MathFormula({
-    Key? key,
+    super.key,
     required this.formula,
     this.fontSize = 22.0,
     this.textColor,
     this.textAlign = TextAlign.center,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -9,13 +9,13 @@ class FormulaCard extends StatelessWidget {
   final VoidCallback? onTap;
 
   const FormulaCard({
-    Key? key,
+    super.key,
     required this.title,
     required this.formula,
     required this.description,
     this.id,
     this.onTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

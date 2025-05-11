@@ -10,7 +10,7 @@ class CustomContainer extends StatelessWidget {
   final IconData? icon;
 
   const CustomContainer({
-    Key? key,
+    super.key,
     required this.title,
     required this.description,
     this.additionalText,
@@ -18,7 +18,7 @@ class CustomContainer extends StatelessWidget {
     this.titleColor,
     this.textColor,
     this.icon,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
