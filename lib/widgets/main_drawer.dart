@@ -3,7 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
 
 class MainDrawer extends StatelessWidget {
-  const MainDrawer({Key? key}) : super(key: key);
+  const MainDrawer({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +49,7 @@ class MainDrawer extends StatelessWidget {
           
           ListTile(
             leading: const Icon(Icons.solar_power),
-            title: const Text('Calculadora Solar'),
+            title: const Text('Calculadoras'),
             onTap: () {
               context.go('/calculator');
               Navigator.of(context).pop();
@@ -57,25 +57,16 @@ class MainDrawer extends StatelessWidget {
             },
           ),
           
-          ListTile(
-            leading: const Icon(Icons.bolt),
-            title: const Text('Calculadora de Energía'),
-            onTap: () {
-              Navigator.pop(context);
-              // Navegar a la calculadora de energía
-            },
-          ),
-          
           const Divider(),
           
-          ListTile(
-            leading: const Icon(Icons.info),
-            title: const Text('Acerca de'),
-            onTap: () {
-              Navigator.pop(context);
-              // Mostrar información sobre la app
-            },
-          ),
+          // ListTile(
+          //   leading: const Icon(Icons.info),
+          //   title: const Text('Acerca de'),
+          //   onTap: () {
+          //     Navigator.pop(context);
+          //     // Mostrar información sobre la app
+          //   },
+          // ),
         ],
       ),
     );

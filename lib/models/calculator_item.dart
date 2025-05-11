@@ -12,8 +12,8 @@ class CalculatorItem {
 final List<CalculatorItem> calculators = [
   CalculatorItem(title: 'Batería', route: '/${RouteNames.batery}', icon: Icons.battery_full),
   CalculatorItem(title: 'Controlador', route: '/${RouteNames.controller}', icon: Icons.settings_input_component),
-  CalculatorItem(title: 'Energía', route: '/${RouteNames.controller}', icon: Icons.flash_on),
-  CalculatorItem(title: 'Full', route: '/${RouteNames.controller}', icon: Icons.functions),
-  CalculatorItem(title: 'Inversor', route: '/${RouteNames.controller}', icon: Icons.transform),
-  CalculatorItem(title: 'Potencia', route: '/${RouteNames.controller}', icon: Icons.electric_bolt),
+  CalculatorItem(title: 'Energía', route: '/${RouteNames.energy}', icon: Icons.flash_on),
+  CalculatorItem(title: 'Full', route: '/${RouteNames.full}', icon: Icons.functions),
+  CalculatorItem(title: 'Inversor', route: '/${RouteNames.inverter}', icon: Icons.transform),
+  CalculatorItem(title: 'Potencia', route: '/${RouteNames.power}', icon: Icons.electric_bolt),
 ];
