@@ -1,16 +1,35 @@
-# calculator
+# SolarCal ☀️
 
-A new Flutter project.
+SolarCal is a mobile application designed to help users perform basic calculations related to solar panels and photovoltaic systems.
 
-## Getting Started
+In addition to calculation tools, the app includes an educational wiki about solar energy that works completely offline, making it useful even without an internet connection.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Overview
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The application allows users to perform common photovoltaic calculations such as estimating solar panel output and understanding key parameters related to solar energy systems.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+It also provides an integrated offline wiki with explanations about solar panels, photovoltaic cells, and related concepts.
+
+---
+
+## Tech Stack
+
+- Flutter
+- Dart
+
+---
+
+## Features
+
+- Solar panel calculations
+- Photovoltaic system estimations
+- Offline solar energy wiki
+- Mobile-friendly interface
+
+---
+
+## Notes
+
+This project was created as a learning and experimentation project focused on mobile development and renewable energy concepts.
